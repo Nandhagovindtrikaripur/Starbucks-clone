@@ -1,0 +1,526 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        /* Header Part */
+
+.header{
+    background-color: #fff;
+    padding: 15px 20px;
+    border-bottom: 2px solid #eeeeee;
+    
+    
+}
+.menu-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+
+.starbuckslogo{
+    margin-left: 122px;
+    /* margin-left: 122px;
+    margin-top: 16px;*
+    margin-right: 1371px; */
+    
+
+}
+.home{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    padding: 0;
+    margin-right:450px ;
+
+}
+.home li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+}
+.home li a:hover {
+    border-bottom: 2px solid #006241;
+}
+
+.menu-search {
+    display: flex;
+    width: 256px;
+    /* justify-content: space-between; */
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 0;
+   
+}
+
+.menu-search input {
+    
+    border:#ddd;
+    width: 256px;
+    outline: none;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.menu-search img{
+    margin-right: 10px;
+}
+.user-icon{
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+    /* Header Part End */
+
+    /* Banner Part */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e4d36;
+    color: #fff;
+    padding: 9px 0;
+    width: 100%;
+    height: 54px;
+}
+.starbucks{
+    width: 50%;
+    padding: 15px;
+    float: left;
+
+}
+.sb{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 122px;
+    
+}
+.know-more-button{
+    color: white;
+    padding-right: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 50px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.know-more{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-left: 9px;
+    
+}
+
+        /* Banner Part End */
+
+        /* Section 1 Part */
+
+.promo-card {
+    display: flex;
+    background-color: #006241;
+    color: #fff;
+    margin-left: 133px;
+    margin-right: 161px;
+     /* margin-bottom: 60px; */
+    margin-top: 56px;
+    height: 246px;
+    padding-left: 0px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.promo-content{
+    margin-right: 6in ;
+}
+        
+.promo-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+        
+.promo-content h2 {
+    margin: 5px 0;
+    font-size: 1.8rem;
+}
+        
+.promo-content p {
+    margin: 10px 0;
+    }
+.price{
+    padding-top: 39px;
+}
+        
+.order-btn {
+    background-color: #006241;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid ;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 9in;
+    width: 105px;
+}
+        
+.promo-image {
+    width: 121px;
+    padding-bottom: 27px;
+}
+
+            /* Section 1 Part End */
+
+                /* Section 2 */
+
+.curations {
+    
+    margin: 40px 20px;
+}
+
+.curations h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-left: 111px;
+}
+
+.curation-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 111px;
+    padding-right: 137px;
+}
+
+.curation-item {
+    text-align: center;
+}
+
+.curation-item img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* section-3 start */
+
+/* Barista Recommends Section */
+.barista-recommends {
+    background-color: #f3f2f0;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.barista-recommends .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.barista-recommends h2 {
+    font-size: 2rem;
+    color: #1e3932;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: -9in;
+}
+
+.view-menu-link {
+    color: #006241;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 15px;
+    padding-top: 65px;
+}
+
+.recommends-carousel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.recommend-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.recommend-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.recommend-details h3 {
+    font-size: 1.2rem;
+    color: #1e3932;
+    margin-bottom: 5px;
+}
+
+.recommend-details .size {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.recommend-details .price {
+    font-size: 1.1rem;
+    color: #1e3932;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.add-item-btn {
+    background-color: #006241;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-item-btn:hover {
+    background-color: #00492d;
+}
+
+        /* Section 3 Ends */
+
+        /* Section 4 */
+
+/* Coffee Culture Section */
+.section-4{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    height: 48rem;
+    margin-top: 5rem;
+    background-color: #edebe9;
+}
+.section-4-up{
+    display: flex;
+    flex-basis: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 8rem 0 8rem;
+    height: 5rem;
+    align-items: center;
+}
+.section-4-up-text{
+    flex-basis: 80%;
+    height: 4rem;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1e3932;
+    font-family: "Oxygen", sans-serif !important;
+    padding-left: .9rem;
+    margin-top: 2rem;
+}
+.section-4-up a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #00754a;
+    margin-top: 2rem;
+    display: block;
+    font-family: "Oxygen", sans-serif !important;
+    cursor: pointer;
+
+    padding-top: 38px;
+}
+.section-4-down{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    margin: 0 8rem 0 8rem;
+    height: 35rem;
+    border-radius: 1rem;
+    background-image: url(./starB-img/coffeeBruwing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1e3932;
+    cursor: pointer;
+    position: relative;
+    transition: all ease-in-out 200ms;
+}
+.section-4-down-coffee{
+    width: 100%;
+    height: 5rem;
+    color: #00754a;
+    margin-top: 1rem;
+    padding: 2rem 0 0 2rem;
+    z-index: 1;
+    padding-top: 3px;
+}
+.section-4-down-coffee p{
+    display: block;
+    width: fit-content;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: .8rem;
+    background-color: #fff;
+    font-family: "Oxygen", sans-serif !important;
+}
+.section-4-down-text{
+    width: fit-content;
+    height: 10rem;
+    color: #fff;
+    margin-top: 8rem;
+    z-index: 1;
+}
+.section-4-down-text h5{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 2rem 2rem;
+    line-height: 4rem;
+    font-family: "Oxygen", sans-serif !important;
+}
+.section-4-down-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 2rem;
+    font-family: "Oxygen", sans-serif !important;
+}
+.section-4-down button{
+    display: block;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 4rem;
+    background-color: #fff;
+    color: #000;
+    margin: 3rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: "Oxygen", sans-serif !important;
+    z-index: 1;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#000000bd;
+    border-radius: 1rem;
+    opacity: 0.5;
+    transition: all ease-in-out 300ms;
+}
+.section-4-down:hover .dark-overlay{
+    opacity: 9;
+}
+
+        /* Section 4 Ends */
+
+
+
+
+/* Footer Section */
+/* Footer Section */
+.footer {
+    background-color: #1e3932;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-bottom-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom-links a:hover {
+    color: #ddd;
+}
+
+.footer-bottom-links span {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    width: 100%;
+    color: #ffffff;
+    opacity: 0.8;
+}
+li{
+    margin: 30px 0;
+    
+}
+.footer-column a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.footer-column a:hover{
+    text-decoration: underline;
+}
+
